@@ -1,0 +1,115 @@
+package com.autentia.tutoriales.dynamicjasper.datasource;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeHelper {
+
+
+    // Generación estática de 100 empleados
+    public static List<Employee> getEmployees() {
+        List<Employee> employees = new ArrayList<Employee>();
+        employees.add(new Employee(1L, "Peter", "Avila", "01/06/2004", "2680.56€", "DEVELOPMENT"));
+        employees.add(new Employee(2L, "Derek", "Meyers", "01/11/2006", "3851.40€", "I+D+I"));
+        employees.add(new Employee(3L, "Jessamine", "Munoz", "31/08/1990", "4778.51€", "DEVELOPMENT"));
+        employees.add(new Employee(4L, "Ainsley", "Callahan", "24/01/1998", "4555.14€", "I+D+I"));
+        employees.add(new Employee(5L, "Dominic", "Hamilton", "16/06/1997", "4453.05€", "DEVELOPMENT"));
+        employees.add(new Employee(6L, "Drew", "Brewer", "31/01/1994", "4275.26€", "DEVELOPMENT"));
+        employees.add(new Employee(7L, "Jonah", "Santana", "10/06/1992", "4405.60€", "DIRECTION"));
+        employees.add(new Employee(8L, "Vivien", "Vaughn", "06/11/2003", "2738.88€", "HHRR"));
+        employees.add(new Employee(9L, "Armando", "Koch", "25/04/2005", "3265.79€", "DIRECTION"));
+        employees.add(new Employee(10L, "Serena", "Gilmore", "29/11/2006", "1216.89€", "DIRECTION"));
+        employees.add(new Employee(11L, "Joy", "Shaw", "17/07/1998", "1059.17€", "HHRR"));
+        employees.add(new Employee(12L, "Cruz", "Knowles", "28/09/2014", "4497.59€", "DEVELOPMENT"));
+        employees.add(new Employee(13L, "Baker", "Mejia", "28/10/2002", "482.02€", "I+D+I"));
+        employees.add(new Employee(14L, "Farrah", "Hunter", "16/04/2005", "990.88€", "DEVELOPMENT"));
+        employees.add(new Employee(15L, "Renee", "Dale", "24/12/2007", "4373.07€", "HHRR"));
+        employees.add(new Employee(16L, "Mira", "Mccall", "27/01/1994", "3327.74€", "HHRR"));
+        employees.add(new Employee(17L, "Lois", "Navarro", "06/06/2002", "959.49€", "HHRR"));
+        employees.add(new Employee(18L, "Steven", "Mckenzie", "08/01/2017", "3695.48€", "I+D+I"));
+        employees.add(new Employee(19L, "Kevyn", "Mosley", "16/02/2011", "4452.87€", "DEVELOPMENT"));
+        employees.add(new Employee(20L, "Aimee", "Odom", "12/10/2004", "343.04€", "DEVELOPMENT"));
+        employees.add(new Employee(21L, "Sean", "Lyons", "17/10/2007", "2059.17€", "DEVELOPMENT"));
+        employees.add(new Employee(22L, "Rooney", "Wyatt", "04/04/1995", "187.74€", "I+D+I"));
+        employees.add(new Employee(23L, "Rhoda", "Weiss", "27/04/2003", "2398.83€", "DIRECTION"));
+        employees.add(new Employee(24L, "Raja", "Mckay", "22/12/1995", "4027.48€", "I+D+I"));
+        employees.add(new Employee(25L, "Claudia", "Vasquez", "11/10/1999", "1277.86€", "I+D+I"));
+        employees.add(new Employee(26L, "Wynter", "Frazier", "15/11/2009", "4116.65€", "DIRECTION"));
+        employees.add(new Employee(27L, "Cally", "Golden", "13/02/1997", "4282.64€", "HHRR"));
+        employees.add(new Employee(28L, "Mona", "Collier", "02/06/2010", "4406.79€", "I+D+I"));
+        employees.add(new Employee(29L, "Akeem", "Petty", "12/03/2005", "1978.81€", "HHRR"));
+        employees.add(new Employee(30L, "Jared", "Dejesus", "12/05/1993", "680.04€", "DIRECTION"));
+        employees.add(new Employee(31L, "Brynn", "Robles", "28/08/2010", "317.24€", "DEVELOPMENT"));
+        employees.add(new Employee(32L, "McKenzie", "Houston", "20/01/2004", "2799.02€", "HHRR"));
+        employees.add(new Employee(33L, "Robin", "Christian", "17/03/2017", "4015.77€", "I+D+I"));
+        employees.add(new Employee(34L, "Elton", "Salinas", "08/06/2008", "1637.68€", "DEVELOPMENT"));
+        employees.add(new Employee(35L, "Olga", "Lynn", "21/02/2017", "1968.72€", "HHRR"));
+        employees.add(new Employee(36L, "Juliet", "Moody", "26/01/1996", "2644.41€", "DEVELOPMENT"));
+        employees.add(new Employee(37L, "Imogene", "Davis", "21/07/2012", "4089.04€", "I+D+I"));
+        employees.add(new Employee(38L, "Meghan", "Hughes", "04/09/2003", "472.25€", "DIRECTION"));
+        employees.add(new Employee(39L, "Aileen", "Ferguson", "24/11/1994", "2044.80€", "I+D+I"));
+        employees.add(new Employee(40L, "Bethany", "Deleon", "10/04/2016", "2350.50€", "DIRECTION"));
+        employees.add(new Employee(41L, "Laith", "Horton", "12/08/1996", "678.72€", "DEVELOPMENT"));
+        employees.add(new Employee(42L, "Abigail", "Cooley", "24/09/2015", "228.13€", "DEVELOPMENT"));
+        employees.add(new Employee(43L, "Kibo", "Warren", "11/01/2011", "3048.14€", "HHRR"));
+        employees.add(new Employee(44L, "Michael", "Murray", "02/11/1997", "855.21€", "I+D+I"));
+        employees.add(new Employee(45L, "Michelle", "Bradshaw", "23/12/2013", "2535.54€", "DEVELOPMENT"));
+        employees.add(new Employee(46L, "Chiquita", "Albert", "23/12/1992", "955.27€", "DEVELOPMENT"));
+        employees.add(new Employee(47L, "Jelani", "West", "09/10/2013", "965.73€", "HHRR"));
+        employees.add(new Employee(48L, "Mikayla", "Shepherd", "12/02/2016", "1147.35€", "I+D+I"));
+        employees.add(new Employee(49L, "Britanney", "Gentry", "29/11/1990", "2360.20€", "I+D+I"));
+        employees.add(new Employee(50L, "Arsenio", "Berry", "25/05/2011", "4339.03€", "HHRR"));
+        employees.add(new Employee(51L, "Kay", "Dorsey", "19/09/2000", "2517.20€", "DIRECTION"));
+        employees.add(new Employee(52L, "Emery", "Crane", "09/01/1997", "1211.66€", "DIRECTION"));
+        employees.add(new Employee(53L, "Yvonne", "Pruitt", "17/08/1991", "4074.68€", "HHRR"));
+        employees.add(new Employee(54L, "Desiree", "Gomez", "12/07/2011", "4632.11€", "I+D+I"));
+        employees.add(new Employee(55L, "Bo", "Roth", "29/12/1997", "2212.07€", "DEVELOPMENT"));
+        employees.add(new Employee(56L, "Barrett", "Holloway", "07/03/2003", "1184.04€", "DEVELOPMENT"));
+        employees.add(new Employee(57L, "Zeph", "Harris", "08/10/2004", "4220.64€", "DEVELOPMENT"));
+        employees.add(new Employee(58L, "Colby", "Delaney", "24/03/2005", "452.77€", "HHRR"));
+        employees.add(new Employee(59L, "Jasmine", "Ratliff", "01/04/2013", "3075.74€", "HHRR"));
+        employees.add(new Employee(60L, "Lael", "Riggs", "01/02/2006", "2636.94€", "HHRR"));
+        employees.add(new Employee(61L, "Teagan", "Floyd", "07/12/1992", "3030.50€", "DEVELOPMENT"));
+        employees.add(new Employee(62L, "Forrest", "Grant", "26/05/1997", "2282.84€", "I+D+I"));
+        employees.add(new Employee(63L, "Russell", "Frederick", "21/10/2012", "734.57€", "I+D+I"));
+        employees.add(new Employee(64L, "Steel", "Lamb", "18/05/2001", "2941.04€", "DEVELOPMENT"));
+        employees.add(new Employee(65L, "Eaton", "Conley", "09/09/2001", "2087.81€", "I+D+I"));
+        employees.add(new Employee(66L, "Ima", "Hamilton", "20/03/1999", "1153.66€", "DEVELOPMENT"));
+        employees.add(new Employee(67L, "Anthony", "Nielsen", "12/09/2001", "4557.51€", "I+D+I"));
+        employees.add(new Employee(68L, "Kaden", "Mathis", "11/11/2015", "3659.21€", "DEVELOPMENT"));
+        employees.add(new Employee(69L, "Aileen", "Rogers", "25/10/1993", "650.59€", "DIRECTION"));
+        employees.add(new Employee(70L, "Evangeline", "Strickland", "29/05/2007", "3314.26€", "I+D+I"));
+        employees.add(new Employee(71L, "Damon", "Fisher", "18/03/1998", "3087.96€", "I+D+I"));
+        employees.add(new Employee(72L, "Quinn", "Waters", "20/11/2011", "1693.60€", "DEVELOPMENT"));
+        employees.add(new Employee(73L, "Remedios", "Mejia", "17/07/1995", "374.50€", "HHRR"));
+        employees.add(new Employee(74L, "Shellie", "Leonard", "19/03/1998", "4059.30€", "DEVELOPMENT"));
+        employees.add(new Employee(75L, "Tatiana", "Weber", "12/08/1995", "3117.66€", "DEVELOPMENT"));
+        employees.add(new Employee(76L, "Danielle", "Shannon", "29/07/2010", "3747.73€", "HHRR"));
+        employees.add(new Employee(77L, "Adele", "Dillon", "25/10/1995", "1352.42€", "HHRR"));
+        employees.add(new Employee(78L, "Kaye", "Mclaughlin", "21/05/2009", "3347.69€", "HHRR"));
+        employees.add(new Employee(79L, "Harrison", "Moreno", "05/02/2012", "1809.48€", "DEVELOPMENT"));
+        employees.add(new Employee(80L, "Sarah", "Blankenship", "19/07/2004", "3594.15€", "DEVELOPMENT"));
+        employees.add(new Employee(81L, "Chancellor", "Pollard", "05/05/2006", "1410.65€", "DIRECTION"));
+        employees.add(new Employee(82L, "Kevyn", "Shannon", "27/07/2006", "2685.41€", "HHRR"));
+        employees.add(new Employee(83L, "Brennan", "Stafford", "18/07/2003", "4526.86€", "DIRECTION"));
+        employees.add(new Employee(84L, "Jamal", "Hurst", "19/09/1995", "2425.52€", "DEVELOPMENT"));
+        employees.add(new Employee(85L, "Sheila", "Rutledge", "02/06/2013", "2516.55€", "HHRR"));
+        employees.add(new Employee(86L, "Kennedy", "Dodson", "01/12/2002", "4201.40€", "HHRR"));
+        employees.add(new Employee(87L, "Blythe", "Odom", "11/01/2003", "1972.09€", "DEVELOPMENT"));
+        employees.add(new Employee(88L, "Chloe", "Woods", "06/07/2014", "4295.57€", "DIRECTION"));
+        employees.add(new Employee(89L, "Ina", "Mosley", "27/11/1990", "394.43€", "DEVELOPMENT"));
+        employees.add(new Employee(90L, "Jescie", "Whitley", "01/06/2005", "4774.59€", "I+D+I"));
+        employees.add(new Employee(91L, "Phelan", "Fischer", "12/05/1998", "858.79€", "DEVELOPMENT"));
+        employees.add(new Employee(92L, "Mollie", "Ayers", "27/10/2009", "3543.12€", "DIRECTION"));
+        employees.add(new Employee(93L, "Dylan", "Keith", "15/02/2002", "2790.90€", "DEVELOPMENT"));
+        employees.add(new Employee(94L, "Hunter", "West", "18/04/2006", "1638.14€", "DEVELOPMENT"));
+        employees.add(new Employee(95L, "Madonna", "Johnston", "22/04/2003", "1325.41€", "DEVELOPMENT"));
+        employees.add(new Employee(96L, "Martha", "Gates", "06/04/2013", "2971.63€", "DIRECTION"));
+        employees.add(new Employee(97L, "Gavin", "Norris", "29/07/2008", "2324.93€", "I+D+I"));
+        employees.add(new Employee(98L, "Finn", "Middleton", "17/10/2016", "4695.77€", "DEVELOPMENT"));
+        employees.add(new Employee(99L, "Andrew", "Hodge", "05/10/2009", "2682.66€", "DIRECTION"));
+        employees.add(new Employee(100L, "Danielle", "Wells", "09/11/2010", "3929.46€", "DEVELOPMENT"));
+
+        return employees;
+    }
+}
